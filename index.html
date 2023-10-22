@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portpolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-------header------->
+    <div id="header">
+        <nav>
+            <div class="left">Mahendra's Portpolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myprojects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi My Name is <span class="purple">Mahendra </span>
+                <div>and Iam a passionate </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images/logo.png">
+            </div>
+        </section>
+    </main>
+        <!--------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/photo1.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <pre>
+    Creative & Highly motivated Computer Science Student with a passion for
+    developing innovative software solutions. I knows the Python. well 
+    interested in coding. I can utilize my skills to contribute to the company 
+    and society. I looking for a platform to start my career and to achieve 
+    my goals along with the organizational goals.</pre>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Python Development</li>
+                        <li><span>HTML & CSS</span><br>Web Development</li>
+                        <li><span>Tkinter</span><br>Python GUI</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2018->SSLC</span><br>Sri Ramakrishna Rural High School<br>Percentage-93.76%</li>
+                        <li><span>2018-2020->PUE</span><br>Kanakashree Jnanadeepa PU college<br>Percentage-86%</li>
+                        <li><span>2020-2024->Engineering</span><br>SVCE Bangalore<br>CGPA-8.1</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="hori">
+    <!--------Myprojects -------->
+    <div id="myprojects">
+    <div>
+        <h1 class="proj">My Projects</h1>
+        <br>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="projects-col-1">
+                   <img src="images/openweaver.jpg" >
+                </div>
+                <div class="projects-col-2">
+                    <h1 class="sub-title">OpenWeavr-Text-to-Image-converter</h1><br>
+                    <p> During in my internship I worked on a project called Text-to-Image Converter.<br>
+                        And I used the openweaver studio provided by OpenWeaver.
+                        Here user <br>as to enter the meaningful text and when user click on 
+                        the button it has <br>to generate the images according to the user input. 
+                        </p>
+                        <br>
+                        <h2 class="cer">Certificate</h2>
+                        
+                        <a href="images/openweaver certificate.pdf" download>
+                        <button class="btn">Download Certificate</button></a>
+                        <br><br>
+                        <h2 class="cer">Project Demo</h2>
+                        <a class="btn" href="https://studio.openweaver.com/apps/mahendrarm788/Image%20Generator/home">click Here to the Project</a>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <div><br>
+        <div id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="projects-col-1">
+                       <img src="images/Screenshot (87).png" >
+                    </div>
+                    <div class="projects-col-2">
+                        <h1 class="sub-title">TechoHackEduTech -Music player in python(Tkinter)</h1><br>
+                        <p>Music players are very popular these days because music has become popular. <br>
+                            The objective of this project is to create a GUI based python music player <br>
+                            using python. Whenever we run this project it opens a GUI & here we can load<br>
+                             the folder which contains the music. On the right side it shows play list of <br>
+                             all the  available music in the selected folder, when we click on any song it<br>
+                              starts music to play & if we want we can also pause, stop, resume the music.
+                        </p>
+                        <br>
+                        <h2 class="cer">Certificate</h2>
+                            
+                            <a href="images/Mahendra R M technohacks.png" download>
+                            <button class="btn">Download Certificate</button></a>
+                            <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   <hr class="hori">
+
+<!------footer contact section------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row1">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Email : mahendra@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>Phone : 0987654321</p>
+            </div>
+            <div class="contact-right">
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/channel/UCsbMlgOn4IiRFAwbIfQWChA"><i class="fab fa-youtube">Youtube</i></a>
+                    <a href="https://www.linkedin.com/in/mahendra-r-m-87b94a219/"><i class="fab fa-linkedin">Linked-in</i></a>
+                    <a href="https://github.com/Maahi-123"><i class="fab fa-github">github</i></a>
+                </div>
+                <a href="images/CV Mahendra R M.pdf" download>
+                   <button class="btn">Download Resume</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mahenda. Made by Mahendra 2023.</p>
+    </div>
+</div>
+    
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Python Developer', 'Web Developer', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    
+    </script>
+
+</body>
+
+</html>
