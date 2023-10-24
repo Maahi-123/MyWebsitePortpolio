@@ -257,37 +257,7 @@ top: 15px;
     font-weight: 250;
     margin-top: 10px;
 }
-/*---------css for small screen--------*/
-@media only screen and (max-with:600px){
-    .firstSection{
-        margin-top: 100px;
-        font-size: 16px;
-    }
-    .firstSection{
-         font-size: 30px;
-    }
-    .sub-title{
-        font-size: 40px;
-    }
-    .about-col-1,.about-col-2{
-        flex-basis: 100%;
-    }
-    .about-col-1{
-    margin-bottom: 30px;
-    }
-    .about-col-2{
-        font-size: 14px;
-    }
-    .tab-kinks{
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    .contact,.contact-right{
-        flex-basis: 100%;
-    }
-    .copyright{
-        font-size: 14px;
-    }
-    }
+
+
 
     
